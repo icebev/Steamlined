@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6420587419882648763
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 4
 --- !u!21 &2100000
 Material:
   serializedVersion: 6
@@ -7,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TestMaterialBlue
+  m_Name: TestMaterialOrange
   m_Shader: {fileID: -6465566751694194690, guid: 87f5fa0a4ad266646b99d752166b7e1a, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -80,7 +93,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Boolean_907265b9336e4205ba9bb013d00b9860: 0
+    - Boolean_907265b9336e4205ba9bb013d00b9860: 1
     - Vector1_82cb9b16693040ee82ef02d4b81121e5: 0.0004
     - Vector1_99422290c0e340de919d950ea03af15c: 0.0002
     - _AlphaClip: 0
@@ -112,22 +125,9 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_48448b248faa446d94976cb12ca3dc41: {r: 0.12014952, g: 0.15622371, b: 0.9433962, a: 0}
-    - _BaseColor: {r: 0.11743506, g: 0.35548604, b: 0.8584906, a: 1}
-    - _Color: {r: 0.11743506, g: 0.35548604, b: 0.8584906, a: 1}
+    - Color_48448b248faa446d94976cb12ca3dc41: {r: 0.8113208, g: 0.4826749, b: 0.16456035, a: 0}
+    - _BaseColor: {r: 0.85882354, g: 0.5262993, b: 0.117647074, a: 1}
+    - _Color: {r: 0.85882354, g: 0.5262993, b: 0.117647074, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &1718072590532589419
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 4
